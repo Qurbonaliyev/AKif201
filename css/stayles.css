@@ -34,3 +34,111 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* button */
+.button{
+    display: flex;
+    padding: 13px 20px;
+    border-radius: 10px;
+    line-height: normal;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-primary{
+    background-color: #7296EC;
+    color: #fff;
+}
+
+.button-primary:hover{
+    opacity: 0.8;
+}
+
+.button-primary:active{
+    opacity: 0.6;
+}
+
+/* site-header */
+.site-header {
+}
+.site-header-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+}
+.site-header-top-container {
+    display: flex;
+    align-items: center;
+}
+.container {
+}
+.site-header-logo {
+    display: flex;
+    padding: 8px 6px;
+    margin-right: 35px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.site-header-logo:hover {
+opacity: 0.8;
+}
+
+.site-header-logo:active{
+    opacity: 0.6;
+}
+
+.site-header-logo-img {
+}
+
+.currenty-rates {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    list-style: none;
+}
+.currenty-rates-item:not(lost-child) {
+    margin-right: 25px;
+}
+.currenty-rates-type {
+    color: #2959ce;
+}
+.currency-rates-value {
+}
+
+/* language-toggle */
+.lang-toggler {
+    display: flex;
+    padding: 3px;
+    margin-right: 25px;
+    border-radius: 39px;
+    background-color: #DCE6FF;
+    margin-right: 25px;
+
+}
+
+.lange-toggle-link {
+width: 30px;
+height: 30px;
+font-size: 13px;
+line-height: 30px;
+color: #a6a6a6;
+border-radius: 50%;
+text-align: center;
+text-decoration: none;
+}
+
+.lange-toggle-link-active {
+background-color: #fff;
+color: #000;
+}
+
+.button {
+}
+.button-primary {
+}
